@@ -40,7 +40,7 @@ int main(){
 	printf("30 ngay");
 	break;
 	case 2:
-	(b%4==0) ? printf("29 ngay") : printf("28 ngay");
+	(b%4==0&&b%100=!0) ? printf("29 ngay") : printf("28 ngay");
 	break;
 	}
 }
