@@ -15,7 +15,7 @@ int main(){
 		max=n3;
 		a=n2;
 		min=n1;
-	}else if(n1>n3){
+	}else if(a>n3){
 		max=n2;
 		a=n1;
 		min=n3;
@@ -28,7 +28,14 @@ int main(){
 		max=n3;
 		a=n1;
 		min=n2;
+	}else if(n2>n3){
+		max=n1;
+		a=n2;
+		min=n3;
+	}else{
+		max=n1;
+		a=n3;
+		min=n2;
 	}
 	printf("%d %d %d",max,a,min);
 }
-	
